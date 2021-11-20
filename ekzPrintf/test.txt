@@ -1,0 +1,14 @@
+ /*
+    if (precision >= 0 && precision < ft_strlen(s))
+	{
+		if (width > precision)
+			i += ft_print_spase(width - precision);
+		while (precision-- > 0)
+			i += ft_putchar(s[j++]);
+		return (i);
+	}
+	else if (width > ft_strlen(s))
+		return (ft_print_spase(width - ft_strlen(s)) + ft_putstr(s));
+	else
+		return (ft_putstr(s));
+        */
